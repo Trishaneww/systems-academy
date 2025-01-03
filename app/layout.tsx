@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Brawler } from "next/font/google";
+import { Brawler, Questrial, Raleway } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 import { cn } from "@/lib/utils";
 
-const inter = Brawler({ weight: ["400", "700"], subsets: ["latin"] });
+const inter = Raleway({ weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"], subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Figment Studios",
