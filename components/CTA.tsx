@@ -8,8 +8,8 @@ import { ChevronRight } from 'lucide-react';
 
 const CTA = () => {
   return (
-    <div className="flex justify-center items-center bg-[#00030F] w-full lg:h-[35rem] text-white mb-20 mt-36">
-        <div className="flex flex-col-reverse md:flex-row w-[92%] lg:w-[78%] lg:h-[98%] bg-[#1D4ED8] bg-gradient-to-b from-[#a9c0ff] to-[#1D4ED8] rounded-2xl p-6">
+    <div className="flex justify-center items-center bg-[#161B22] w-full lg:h-[55rem] text-white mt-36">
+        <div className="flex flex-col-reverse md:flex-row w-[92%] lg:w-[78%] lg:h-[70%] bg-[#1D4ED8] bg-gradient-to-b from-[#a9c0ff] to-[#1D4ED8] rounded-2xl p-6">
             <section className="flex flex-col gap-6 lg:w-[60%] lg:pl-20 pt-10">
                 <p className="text-xl md:text-4xl lg:text-6xl font-bold">Sign up today to start benefiting from our system</p>
                 <div className="flex flex-col gap-2">

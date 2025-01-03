@@ -15,12 +15,20 @@ const Home = () => {
     <div className="flex flex-col bg-[#0C1117] scroll-smooth">
       <Navbar />
       <Hero />
-      <Features />
-      <Testimonials2 />
-      <Benefits />
+      <div id="features">
+        <Features />
+      </div>
+      <div id="benefits">
+        <Benefits />
+      </div>
+      <div id="testimonials">
+        <Testimonials2 />
+      </div>
       {/* <Testimonials /> */}
+      <div id="faq">
+        <Faq />
+      </div>
       <CTA />
-      <Faq />
       <Footer />
       <Footer2 />
     </div>

@@ -10,7 +10,7 @@ import { Button } from './ui/button';
 
 const Benefits = () => {
   return (
-    <div className="flex flex-col items-center justify-center gap-12 text-white py-12 lg:py-20 px-4">
+    <div className="flex flex-col items-center justify-center gap-12 text-white py-12 lg:py-20 px-4 -mb-24">
         <p className="text-2xl lg:text-4xl font-bold">Kick off workflows on any GitHub event to automate tasks</p>
         <section className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-12">
             <div className="flex flex-col items-start justify-start w-full lg:w-[380px] text-[#a9c0ff] bg-[#161B22] border-[1px] border-gray-800 px-4 rounded-xl h-[250px] pt-8">

@@ -73,9 +73,9 @@ const Hero = () => {
     }
   }
   return (
-    <div className="flex flex-col items-center justify-start bg-[#00030F] pt-48 overflow-hidden">
-         <div className="w-[75%] h-[500px] bg-gradient-to-r from-[#3f4964] to-[#1D4ED8] rounded-full relative z-10 blur-[90px] top-36"></div>
-         <div className="z-20 flex flex-col items-center w-full gap-4 px-4 relative -top-[500px]">
+    <div className="flex flex-col items-center justify-start bg-[#00030F] pt-48 overflow-hidden -mt-[550px]">
+         <div className="w-[75%] h-[600px] bg-gradient-to-r from-[#3f4964] to-[#1D4ED8] rounded-full relative z-10 blur-[90px] top-[900px]"></div>
+         <div className="z-20 flex flex-col items-center w-full gap-4 px-4 relative">
          <p className="text-4xl md:text-6xl xl:text-7xl font-bold lg:w-[65%] text-center text-slate-50">The Ultimate Sports <span className="">Betting Course</span></p>
          {/* <p className="text-slate-50 mt-2 lg:w-[40%] text-center">This is as close as you’ll ever be to having a license to print money (LTP!) -Get started by learning from professional gamblers and joining our growing community of basketball enthusiasts! </p> */}
 
