@@ -38,7 +38,7 @@ const Footer = () => {
     }
   }
   return (
-    <div className="flex flex-col xl:justify-center xl:items-start gap-40 px-6 w-full bg-[#00030F] footer py-20">
+    <div className="flex flex-col xl:justify-center xl:items-start gap-12 px-6 w-full bg-[#0C1117] footer py-20">
         <section className="flex flex-col gap-4 justify-start h-full">
              <p className="text-slate-50 font-bold text-4xl">The Systems Academy</p>
              <p className="text-slate-50 font-bold text-sm mt-2">Subscribe to our developer newsletter</p>
@@ -48,15 +48,15 @@ const Footer = () => {
                 <Input type="email" placeholder="Email" name="email" className="w-full lg:w-[270px] h-[52px] text-lg border-2 bg-white border-white text-black"/>
                 <p className="ml-1 text-red-600">{error}</p>
               </div>
-              <Button type="submit" className="w-full lg:w-[150px] h-[53px] text-lg bg-transparent border-[1px] border-slate-300">Subscribe</Button>
+              <Button type="submit" className="w-full lg:w-[150px] h-[53px] text-base bg-transparent border-gray-600 border-[1px] hover:border-slate-300">Subscribe</Button>
             </form>
         </section>
 
         <section className="flex gap-12 items-start flex-wrap">
             <div className="flex flex-col gap-2">
-                <p className="text-slate-50 font-semibold text-lg">Services</p>
+                <p className="text-slate-50 font-semibold text-lg">Course</p>
                 {servicesData2.map((link, idx) => (
-                    <Link href='/services/#services' className="text-slate-50" key={idx}>
+                    <Link href={link.link} className="text-slate-50" key={idx}>
                         <p className="text-lg">{link.title}</p>
                     </Link>
                 ))}
@@ -73,9 +73,9 @@ const Footer = () => {
 
             <div className="flex flex-col gap-2 text-slate-50 ">
                 <p className="text-slate-50 font-semibold text-lg">Contact</p>
-                <a href="mailto:hydraguardconstruction@gmail.com" className="text-lg" target="_blank">hyd</a>
-                <a href="https://www.instagram.com/figmentstudioss" className="text-lg" target="_blank">@hydraguardconstruction</a>
-                <p className="text-lg">647-898-1023</p>
+                <a href="mailto:hydraguardconstruction@gmail.com" className="text-lg" target="_blank">systemsacademy@gmail.com</a>
+                <a href="https://www.instagram.com/figmentstudioss" className="text-lg" target="_blank">@thesystemsacademy</a>
+                {/* <p className="text-lg">647-898-1023</p> */}
             </div>
 
             {/* <section className="flex flex-col gap-2 lg:w-1/3 lg:mt-0 text-center lg:text-left text-slate-50">

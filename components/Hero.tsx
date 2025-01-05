@@ -73,10 +73,14 @@ const Hero = () => {
     }
   }
   return (
-    <div className="flex flex-col items-center justify-start bg-[#00030F] pt-48 overflow-hidden -mt-[550px]">
-         <div className="w-[75%] h-[600px] bg-gradient-to-r from-[#3f4964] to-[#1D4ED8] rounded-full relative z-10 blur-[90px] top-[900px]"></div>
+    <div className="flex flex-col items-center justify-start bg-[#0C1117] pt-48  -mt-[560px] md:-mt-[810px]">
+         <div className="w-[90%] lg:w-[52%] h-[500px] lg:h-[820px] bg-gradient-to-r from-[#3f4964] to-[#1D4ED8] rounded-full relative z-10 blur-[90px] top-[970px] lg:top-[1150px]"></div>
          <div className="z-20 flex flex-col items-center w-full gap-4 px-4 relative">
-         <p className="text-4xl md:text-6xl xl:text-7xl font-bold lg:w-[65%] text-center text-slate-50">The Ultimate Sports <span className="">Betting Course</span></p>
+         <div className="flex flex-col gap-2 items-center">
+          <p className="text-3xl md:text-6xl xl:text-6xl font-bold text-center text-slate-50">The home for</p>
+          <p className="text-3xl md:text-6xl xl:text-6xl font-bold text-center text-slate-50">developer communities</p>
+         </div>
+         <p className="text-lg text-slate-400 w-[90%] lg:w-[35%] text-center font-semibold">Ask questions, share ideas, and build connections with each other—all right next to your code. GitHub Discussions enables healthy and productive software collaboration.</p>
          {/* <p className="text-slate-50 mt-2 lg:w-[40%] text-center">This is as close as you’ll ever be to having a license to print money (LTP!) -Get started by learning from professional gamblers and joining our growing community of basketball enthusiasts! </p> */}
 
          {/* <div className="flex justify-center items-center gap-2 mt-6">
@@ -88,16 +92,18 @@ const Hero = () => {
               <Input type="email" placeholder="Email" name="email" className="w-full lg:w-[260px] h-[54px] font-bold text-lg border-[1px] bg-transparent border-slate-200 text-slate-50 placeholder:text-slate-50"/>
               <p className="ml-1 text-red-600">{error}</p>
           </div>
-          <Button type="submit" className="w-full max-w-[210px] h-[53px] text-base font-bold bg-white text-slate-950">Get a free quote</Button>
+          <Button type="submit" className="w-full max-w-[260px] lg:max-w-[210px] h-[53px] text-base font-bold bg-white text-slate-950">Get a free pdf</Button>
         </form>
 
-        <Image
-          src="/assets/hero.png"
-          width={1200}
-          height={1200}
-          alt="hero banner"
-          className="rounded-lg mt-12"
-        />
+        <div className="flex justify-center items-center z-20  bg-[#38383825] rounded-2xl p-2 backdrop-blur-3xl border-[1px] border-slate-300 mt-12">
+          <Image
+            src="/assets/s2.png"
+            width={520}
+            height={520}
+            alt="hero banner"
+            className="rounded-2xl"
+          />
+        </div>
         </div>
 
     </div>

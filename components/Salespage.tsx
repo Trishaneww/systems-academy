@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import { Button } from './ui/button'
-import { Book, Check, Folder, Info, Star } from 'lucide-react'
+import { BarChart, Book, Check, Clock, Eye, Folder, Info, Phone, ShieldCheck, Star, Users, Video } from 'lucide-react'
 import Image from 'next/image'
 import {
     Accordion,
@@ -10,6 +10,8 @@ import {
     AccordionTrigger,
   } from "@/components/ui/accordion"
 import { faqData } from '@/data'
+import { FaBasketball, FaPeopleGroup } from 'react-icons/fa6'
+import { MdPhoneIphone } from 'react-icons/md'
 
 const Salespage = () => {
   return (
@@ -35,33 +37,33 @@ const Salespage = () => {
             <div className="flex flex-col lg:flex-row gap-4">
                 <div className="flex flex-col gap-2 bg-white h-[100px] w-full lg:w-[22%] p-4 rounded-2xl text-slate-950">
                     <p>Chapters</p>
-                    <div className="flex gap-2">
+                    <div className="flex gap-2 font-bold text-xl items-center">
                         <Book />
+                        <p>6</p>
+                    </div>
+                </div>
+
+                <div className="flex flex-col gap-2 bg-white h-[100px] w-full lg:w-[22%] p-4 rounded-2xl text-slate-950">
+                    <p>Duration</p>
+                    <div className="flex gap-2 font-bold text-xl items-center">
+                        <Clock />
+                        <p>11h 32m</p>
+                    </div>
+                </div>
+
+                <div className="flex flex-col gap-2 bg-white h-[100px] w-full lg:w-[22%] p-4 rounded-2xl text-slate-950">
+                    <p>Skill level</p>
+                    <div className="flex gap-2 font-bold text-xl items-center">
+                        <BarChart />
                         <p>6 Chapters</p>
                     </div>
                 </div>
 
                 <div className="flex flex-col gap-2 bg-white h-[100px] w-full lg:w-[22%] p-4 rounded-2xl text-slate-950">
-                    <p>Chapters</p>
-                    <div className="flex gap-2">
-                        <Book />
-                        <p>6 Chapters</p>
-                    </div>
-                </div>
-
-                <div className="flex flex-col gap-2 bg-white h-[100px] w-full lg:w-[22%] p-4 rounded-2xl text-slate-950">
-                    <p>Chapters</p>
-                    <div className="flex gap-2">
-                        <Book />
-                        <p>6 Chapters</p>
-                    </div>
-                </div>
-
-                <div className="flex flex-col gap-2 bg-white h-[100px] w-full lg:w-[22%] p-4 rounded-2xl text-slate-950">
-                    <p>Chapters</p>
-                    <div className="flex gap-2">
-                        <Book />
-                        <p>6 Chapters</p>
+                    <p>Views</p>
+                    <div className="flex gap-2 font-bold text-xl items-center">
+                        <Eye />
+                        <p>12,680</p>
                     </div>
                 </div>
             </div>
@@ -80,12 +82,6 @@ const Salespage = () => {
         <div className="flex flex-col text-slate-950 lg:w-[70%]">
             <p className="text-xl font-bold">Frequently asked questions</p>
             <Accordion type="single" collapsible className="flex flex-col gap-2 lg:w-[70%]">
-            <AccordionItem  className="border-none p-4  rounded-2xl" value={'question 7'}>
-                <AccordionTrigger className="text-base text-left">What if I don&apos;t have a company name or URL yet?</AccordionTrigger>
-                    <AccordionContent className="text-base mt-6 flex flex-col gap-2">
-                        <p>No worries! We&apos;d love to hear about your project, whether you&apos;re just starting out or still brainstorming. Feel free to <a href="mailto:contact.figmentstudios@gmail.com" className="text-green-700 underline">contact us</a>, and we can discuss how to bring your vision to life.</p>
-                    </AccordionContent>
-            </AccordionItem>
                 {faqData.map((accordion:any, idx:number) => (
                     <AccordionItem value={`item-${idx}`} className="border-none p-4 rounded-2xl" key={idx}>
                     <AccordionTrigger className="text-base text-left">{accordion.item}</AccordionTrigger>
@@ -94,13 +90,6 @@ const Salespage = () => {
                         </AccordionContent>
                     </AccordionItem>
                 ))}
-        
-            <AccordionItem  className="border-none p-4  rounded-2xl" value={'question 6'}>
-                <AccordionTrigger className="text-base text-left">Can you redesign an existing website?</AccordionTrigger>
-                    <AccordionContent className="text-base mt-6 flex flex-col gap-2">
-                        <p>We offer a comprehensive redesign service for existing websites to give them a fresh, modern look and improve their performance.</p>
-                    </AccordionContent>
-            </AccordionItem>
         </Accordion>
         </div>
         </div>
@@ -111,26 +100,26 @@ const Salespage = () => {
                 <p className="text-4xl font-bold">$999.99</p>
                 <p className="mt-6 font-bold">Course Includes:</p>
 
-                <ul className="flex flex-col gap-2 text-slate-500">
-                    <li className="flex gap-2">
+                <ul className="flex flex-col gap-2 text-gray-600">
+                    <li className="flex gap-2 items-center">
                         <Folder />
+                        <p>Fully downloadable resources</p>
+                    </li>
+                    <li className="flex gap-2 items-center">
+                        <Book />
                         <p>6 Chapters</p>
                     </li>
-                    <li className="flex gap-2">
-                        <Folder />
-                        <p>6 Chapters</p>
+                    <li className="flex gap-2 items-center">
+                        <FaBasketball />
+                        <p>Our weekly betting picks</p>
                     </li>
-                    <li className="flex gap-2">
-                        <Folder />
-                        <p>6 Chapters</p>
-                    </li>
-                    <li className="flex gap-2">
-                        <Folder />
-                        <p>6 Chapters</p>
+                    <li className="flex gap-2 items-center">
+                        <MdPhoneIphone />
+                        <p>Mobile view</p>
                     </li>
                 </ul>
                 <Link href="https://buy.stripe.com/28o8yb5zi2NB9Og3co">
-                    <Button className="h-[50px] w-full mt-8">Enroll now</Button>
+                    <Button className="h-[50px] w-full mt-8 text-lg font-semibold">Enroll now</Button>
                 </Link>
             </div>
 
@@ -153,29 +142,47 @@ const Salespage = () => {
             </div>
 
             <div className="h-[500px] w-full rounded-lg bg-white text-slate-950 flex flex-col gap-2 px-4 py-6">
-                <p>Full Course</p>
-                <p className="text-4xl font-bold">$999.99</p>
+                <p className="font-bold text-xl">Publisher</p>
+
+                <div className="flex justify-start items-center gap-2">
+                    <div className="flex justify-center items-center w-[50px] h-[50px] rounded-full bg-[#00030F] p-1">
+                        <Image
+                            height={100}
+                            width={100}
+                            src="/assets/logo.png"
+                            alt="systems academy logo"
+                        />
+                    </div>
+
+                    <div className="flex flex-col">
+                        <p className="font-bold">The Systems Academy</p>
+                        <p>Betting educator</p>
+                    </div>
+                </div>
+
+
+
+                <p className="mt-4">Our company empowers sports enthusiasts with expert knowledge and proven strategies through our NBA sports betting course, aiming to help bettors make smarter decisions and achieve consistent success.</p>
                 <p className="mt-6">Course Includes:</p>
 
-                <ul className="flex flex-col gap-2">
-                    <li className="flex gap-2">
-                        <Folder />
-                        <p>6 Chapters</p>
+                <ul className="flex flex-col gap-2 text-gray-600">
+                    <li className="flex gap-2 items-center">
+                        <Star/>
+                        <p>4.8 Instructor rating</p>
                     </li>
-                    <li className="flex gap-2">
-                        <Folder />
-                        <p>6 Chapters</p>
+                    <li className="flex gap-2 items-center">
+                        <Users />
+                        <p>120 students</p>
                     </li>
-                    <li className="flex gap-2">
-                        <Folder />
-                        <p>6 Chapters</p>
+                    <li className="flex gap-2 items-center">
+                        <ShieldCheck />
+                        <p>47 reviews</p>
                     </li>
-                    <li className="flex gap-2">
+                    <li className="flex gap-2 items-center">
                         <Folder />
                         <p>6 Chapters</p>
                     </li>
                 </ul>
-                <Button className="h-[50px] w-full mt-8">Enroll now</Button>
             </div>
         </div>
     </div>

@@ -18,9 +18,9 @@ const Navbar = () => {
   }
 
   return (
-    <div className="flex w-full justify-between items-center h-[80px] p-6 lg:px-12 backdrop-blur-md navbar self-center scroll-smooth z-50 fixed mb-20 bg-[#00030F]">
+    <div className="flex w-full justify-between items-center h-[80px] p-6 pt-8 lg:px-12 backdrop-blur-md navbar self-center scroll-smooth z-50 fixed mb-20 bg-[#0C1117]">
       <Link href='/' className={cn(
-            "relative dark:text-slate-50 items-center flex space-x-1 text-slate-50 dark:hover:text-slate-300 hover:text-slate-500 w-[150px]"
+            "relative dark:text-slate-50 items-center flex space-x-1 text-slate-50  hover:text-[#a9c0ff] w-[150px]"
           )}>
             <div className="w-[60%]">
             <Image 
@@ -39,7 +39,7 @@ const Navbar = () => {
           key={idx} 
           href={navItem.link}
           className={cn(
-            "relative dark:text-slate-50 items-center hidden lg:flex space-x-1 text-slate-50 dark:hover:text-slate-300 hover:text-slate-500"
+            "relative dark:text-slate-50 items-center hidden lg:flex space-x-1 text-slate-50 hover:text-[#a9c0ff]"
           )}
         >
           <span className="!cursor-pointer text-base font-bold">{navItem.name}</span>
@@ -49,11 +49,11 @@ const Navbar = () => {
 
     <div className="hidden lg:flex gap-2 justify-center items-center">
         <Link href="/login">
-          <Button className="w-[100px] h-[40px] hover:bg-white hover:text-slate-950 text-slate-50 bg-transparent p-2 text-base">Login</Button>
+          <Button className="w-[100px] h-[40px] hover:bg-transparent text-slate-50 bg-transparent p-2 text-base">Login</Button>
         </Link>
 
         <Link href="/signup">
-          <Button className="w-[120px] h-[40px] bg-white rounded-lg text-base text-slate-950">Sign Up<FaArrowRightLong className="ml-2"/></Button>
+          <Button className="w-[120px] h-[40px] bg-white hover:bg-[#a9c0ff] hover:text-slate-950 rounded-lg text-base text-slate-950">Sign Up<FaArrowRightLong className="ml-2"/></Button>
         </Link>
     </div>
 
