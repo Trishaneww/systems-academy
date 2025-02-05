@@ -6,24 +6,34 @@ export const navItems = [
     { name: "Contact", link: "/contact" },
 ];
 
+
 export const faqData = [
     {
-        id: 1,
-        item: 'Is it possible to integrate third-party tools and software?',
-        content: "We specialize in integrating a wide range of third-party tools and software into your website, such as payment gateways (Stripe, PayPal), marketing tools (Google Analytics, HubSpot), CRMs (Salesforce, Zoho CRM), and more. These integrations help streamline operations, enhance user experience, and drive growth by providing secure transactions, effective marketing, and efficient customer management—all from a single, cohesive platform tailored to your business needs."
+      id: 1,
+      item: 'Who is the course designed for?',
+      content: "The course is suitable for beginners looking to enter the sports betting world and intermediate bettors who want to refine their strategies and increase their success rate. Whether you're new or have some experience, our step-by-step approach will help you elevate your game."
     },
-    // {
-    //     id: 2,
-    //     item: 'What happens after the website is launched?',
-    //     content: "After launching your website, we provide ongoing maintenance and support to keep it secure, updated, and optimized. This includes regular updates, security patches, performance checks, and backups. Our team is also available to assist with any issues, ensuring your website remains effective and aligned with your business needs."
-    // },
-    // {
-    //     id: 3,
-    //     item: 'What happens if I am unhappy with the designs?',
-    //     content: "If you are not satisfied with our initial design, we are committed to working closely with you to make it right. We encourage your feedback throughout the design process to refine and develop a website that you truly love and that effectively supports your brand's growth.However, if you are still unhappy with the direction within the first 7 days of payment, we offer a full refund to ensure you are completely confident in your decision to work with us. Your satisfaction is our priority, and we are here to create a website that meets your expectations and business needs"
-    // }
+    {
+      id: 2,
+      item: 'Do you provide updates for the course?',
+      content: "Absolutely! The NBA is dynamic, and betting strategies evolve with it. We provide regular updates to our course material to reflect the latest trends, stats, and techniques, ensuring you always stay ahead of the game."
+    },
+    {
+      id: 3,
+      item: 'How do I access the course material after purchase?',
+      content: "Once you complete your purchase, you'll receive an email with a secure link to access the course material. The content is hosted on our website, so you can log in anytime to access video tutorials, downloadable resources, and interactive tools."
+    },
+    {
+      id: 4,
+      item: 'What does the NBA sports betting course cover?',
+      content: "Our course provides a comprehensive guide to NBA sports betting, including understanding odds, analyzing player stats, developing betting strategies, managing bankrolls, and avoiding common mistakes. You'll also learn how to interpret advanced metrics and trends to make informed decisions."
+    },
+    {
+      id: 5,
+      item: 'Can I contact someone for support or additional questions about the course?',
+      content: "Yes, we’re here to help! If you have any questions or need assistance, you can reach out to our support team via email or the contact form on our website. We typically respond within 24-48 hours."
+    }
 ]
-
 
 
 export const testimonials = [
@@ -68,26 +78,27 @@ export const testimonials = [
     email:'marianadsouza1@gmail.com',
     src: '/assets/headshot3.png',
     desc:'““Finding a company we could trust was a big concern for us. These guys exceeded all expectations. They waterproofed our roof with care and precision, and their warranty gave us extra peace of mind."',
-  }]
+}]
+
 
   export const companyData = [
     {
       id:1,
-      name: 'Services',
-      link:'/#services'
+      name: 'Course features',
+      link:'/#benefits'
     },
     {
       id:2,
-      name: 'Gallery',
-      link:'/#gallery'
+      name: 'Community',
+      link:'/#community'
     },
     {
       id:3,
       name: 'Testimonials',
-      link:'/testimonials'
+      link:'/#testimonials'
     },
     {
-      id:1,
+      id:4,
       name: 'FAQ',
       link:'/#faq'
     }
@@ -99,43 +110,31 @@ export const testimonials = [
 export const servicesData2 = [
   {
     id: 1,
-    title: 'Sump pump services',
-    link: '/#services'
+    title: 'Targeting Core Players',
+    link: '/#benefits'
   },
   {
     id: 2,
-    title: 'Crack Repairs',
-    link: '/#services'
+    title: 'Educational Consulting',
+    link: '/#benefits'
   },
   {
     id:3,
-    title: 'Block Foundation walls',
-    link: '/#services'
+    title: 'Game Analysis Tools',
+    link: '/#benefits'
   },
   {
     id: 4,
-    title: 'ICF Foundation walls',
-    link: '/#services'
+    title: 'Real-time Updates',
+    link: '/#benefits'
   },
   {
     id: 5,
-    title: 'Excavations',
-    link: '/#services'
+    title: 'Parlay Betting Strategy',
+    link: '/#benefits'
   },
   {
     id: 6,
-    title: 'Footings',
-    link: '/#services'
-  },
-  {
-    id: 7,
-    title: 'Underpinning lowering',
-    link: '/#services'
-  },
-  {
-    id: 8,
-    title: 'Block Foundation walls',
-    link: '/#services'
-  },
-    
-]
+    title: 'The System',
+    link: '/#benefits'
+  }]

@@ -2,7 +2,6 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 import { Button } from './ui/button'
-import { navItems } from '@/data'
 import { FaArrowRightLong } from "react-icons/fa6";
 import { cn } from '@/lib/utils'
 import '../styles/global.scss';
@@ -11,12 +10,6 @@ import logo from '../public/assets/logo.png'
 import { Menu, X } from 'lucide-react'
 
 const Navbar2 = () => {
-  const [showMenu, setShowMenu] = useState(false);
-
-  const switch_menu = () => {
-    setShowMenu(!showMenu)
-  }
-
   return (
     <div className="flex w-full justify-between items-center h-[80px] p-6 lg:px-12 backdrop-blur-md navbar self-center scroll-smooth z-50 fixed mb-20 bg-[#00030F]">
       <Link href='/' className={cn(
@@ -34,17 +27,6 @@ const Navbar2 = () => {
       </Link>
 
       <div className="flex justify-center items-center gap-8">
-      {/* {navItems.map((navItem: any, idx: number) => (
-        <Link 
-          key={idx} 
-          href={navItem.link}
-          className={cn(
-            "relative dark:text-slate-50 items-center hidden md:flex space-x-1 text-slate-50 dark:hover:text-slate-300 hover:text-slate-500"
-          )}
-        >
-          <span className="!cursor-pointer text-base font-bold">{navItem.name}</span>
-        </Link>
-      ))} */}
       </div>
 
     <div className="hidden lg:flex gap-2 justify-center items-center">
@@ -70,11 +52,11 @@ const Navbar2 = () => {
         <X size={30}/>
        
       </label>
-      <a href="/#faq">FAQ</a> 
-      <a href="/portfolio">Portfolio</a>
-      <a href="/services">Services</a>
-      <a href="/pricing">Pricing</a>
-      <a href="/pricing">Contact</a>
+      <Link href="/#faq">FAQ</Link> 
+      <Link href="/portfolio">Portfolio</Link>
+      <Link href="/services">Services</Link>
+      <Link href="/pricing">Pricing</Link>
+      <Link href="/pricing">Contact</Link>
       <Link href="/contact">
             <Button className="w-[320px] h-[55px] text-lg bg-[#1D4ED8] rounded-lg text-white mt-12">Get Access Now</Button>
         </Link>

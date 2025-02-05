@@ -24,7 +24,7 @@ const Introduction = () => {
         </div>
         <div className="flex flex-col text-slate-950 w-[72%] gap-2">
             <p className="text-xl font-bold">Description</p>
-            <p className="flex gap-2">Unlock the secrets to making serious money with NBA sports betting. This course is designed for those ready to turn their passion for basketball into a profitable venture. Learn the fundamentals of gambling and NBA strategy, master the psychology behind successful betting, and implement a proven system to maximize your returns. Discover the best platforms, analyze team-specific and daily trends, and develop the skills to evaluate bets like a pro. If you're serious about building a lucrative betting portfolio, this course is your ultimate guide to success.</p>
+            <p className="flex gap-2">Unlock the secrets to making serious money with NBA sports betting. This course is designed for those ready to turn their passion for basketball into a profitable venture. Learn the fundamentals of gambling and NBA strategy, master the psychology behind successful betting, and implement a proven system to maximize your returns. Discover the best platforms, analyze team-specific and daily trends, and develop the skills to evaluate bets like a pro. If you&apos;re serious about building a lucrative betting portfolio, this course is your ultimate guide to success.</p>
         </div>
 
 
@@ -66,7 +66,7 @@ const Introduction = () => {
         </div>
 
         <div className="flex flex-col text-slate-950 w-[70%] gap-2">
-            <p className="text-xl font-bold">What you'll learn</p>
+            <p className="text-xl font-bold">What you&apos;ll learn</p>
             <div className="grid grid-cols-2">
                 <p className="flex gap-2"><span><Check /></span> How to evaluate your bets</p>
                 <p className="flex gap-2"><span><Check /></span> Gambling psychology & fallacies</p>

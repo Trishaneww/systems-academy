@@ -1,4 +1,5 @@
 import Footer from '@/components/Footer'
+import Footer2 from '@/components/Footer2'
 import Navbar from '@/components/Navbar'
 import Navbar2 from '@/components/Navbar2'
 import Salespage from '@/components/Salespage'
@@ -10,7 +11,7 @@ const Course = () => {
         <Navbar2 />
         <Salespage />
         <Footer />
-
+        <Footer2 />
     </div>
   )
 }

@@ -1,10 +1,8 @@
 "use client"
 import Image from 'next/image'
 import React, { useState } from 'react';
-import { Button } from './ui/button'
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { testimonials } from '@/data';
-import Link from 'next/link';
 import '../styles/global.scss';
 
 const Testimonials: React.FC = () => {
