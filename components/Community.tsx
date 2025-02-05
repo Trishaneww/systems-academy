@@ -4,7 +4,7 @@ import { FaDiscord } from 'react-icons/fa6'
 
 const Community = () => {
   return (
-    <div className="flex flex-col items-center justify-center gap-12 text-white py-12 lg:py-20 px-4 mt-28">
+    <div className="flex flex-col items-center justify-center gap-12 text-white py-12 lg:py-20 px-4 mt-12">
          <p className="text-3xl md:text-3xl lg:text-5xl font-bold">Kick off workflows on any GitHub event to automate tasks</p>
          <section className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-12">
             

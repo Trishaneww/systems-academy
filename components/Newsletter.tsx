@@ -34,7 +34,7 @@ const Newsletter = () => {
   }
   return (
     <div className="flex justify-center items-center mt-20">
-        <div className="flex justify-center px-12 py-20 w-full text-slate-50 bg-[#161B22] border-[1px] border-gray-800  rounded-xl  gap-64 z-10">
+        <div className="flex flex-col lg:flex-row justify-center px-12 py-20 w-full text-slate-50 bg-[#161B22] border-gray-800 gap-20 lg:gap-64 z-10">
             <section className="flex flex-col gap-2">
                 <p className="font-semibold text-3xl">Stay in touch</p>
                 <p>Announcements can be found in our blog</p>
