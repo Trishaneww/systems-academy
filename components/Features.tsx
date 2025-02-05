@@ -22,7 +22,7 @@ const Features = () => {
                 <div className="flex flex-col gap-4">
                     {/* <p className="bg-gradient-to-r from-[#a9c0ff] to-[#1D4ED8]  bg-clip-text text-transparent font-semibold text-base">SEEMLESS INTEGRATION</p> */}
                     <p className="mt-2 font-bold text-2xl md:text-3xl xl:text-4xl">Targeting Core Players</p>
-                    <p className="text-slate-400 font-semibold w-[82%]">GitHub Copilot suggests code completions as you type and turns natural language prompts into coding suggestions based on your project's conventions.</p>
+                    <p className="text-slate-400 font-semibold w-[82%]">GitHub Copilot suggests code completions as you type and turns natural language prompts into coding suggestions based on your project&apos;s conventions.</p>
                     <div className="flex justify-start items-center font-bold text-[#a9c0ff] hover:cursor-pointer"><p className="font-bold text-base">Discover more</p> <ChevronRight /></div>
                 </div>
             </div>
@@ -41,7 +41,7 @@ const Features = () => {
                 <div className="flex flex-col gap-4">
                     {/* <p className="bg-gradient-to-r from-[#a9c0ff] to-[#1D4ED8]  bg-clip-text text-transparent font-semibold text-base">SEEMLESS INTEGRATION</p> */}
                     <p className="mt-2 font-bold text-2xl md:text-3xl xl:text-4xl">Targeting Core Players</p>
-                    <p className="text-slate-400 font-semibold w-[82%]">GitHub Copilot suggests code completions as you type and turns natural language prompts into coding suggestions based on your project's conventions.</p>
+                    <p className="text-slate-400 font-semibold w-[82%]">GitHub Copilot suggests code completions as you type and turns natural language prompts into coding suggestions based on your project&apos;s conventions.</p>
                     <div className="flex justify-start items-center font-bold text-[#a9c0ff] hover:cursor-pointer"><p className="font-bold text-base">Discover more</p> <ChevronRight /></div>
                 </div>
             </div>
@@ -60,7 +60,7 @@ const Features = () => {
                 <div className="flex flex-col gap-4">
                     {/* <p className="bg-gradient-to-r from-[#a9c0ff] to-[#1D4ED8]  bg-clip-text text-transparent font-semibold text-base">SEEMLESS INTEGRATION</p> */}
                     <p className="mt-2 font-bold text-2xl md:text-3xl xl:text-4xl">Targeting Core Players</p>
-                    <p className="text-slate-400 font-semibold w-[82%]">GitHub Copilot suggests code completions as you type and turns natural language prompts into coding suggestions based on your project's conventions.</p>
+                    <p className="text-slate-400 font-semibold w-[82%]">GitHub Copilot suggests code completions as you type and turns natural language prompts into coding suggestions based on your project&apos;s conventions.</p>
                     <div className="flex justify-start items-center font-bold text-[#a9c0ff] hover:cursor-pointer"><p className="font-bold text-base">Discover more</p> <ChevronRight /></div>
                 </div>
             </div>

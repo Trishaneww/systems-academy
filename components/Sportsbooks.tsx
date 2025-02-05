@@ -5,9 +5,19 @@ const Sportsbooks = () => {
   return (
     <div className="flex flex-col items-center gap-12 mt-44">
 
-      <p className="text-2xl lg:text-3xl font-bold text-slate-50 w-[90%] lg:w-[45%] text-center">Extend GitHub Copilot with ready-to-use extensions or build your own using our developer platform with APIs, documentation, and guides.</p>
+      <p className="text-2xl lg:text-3xl font-bold text-slate-50 w-[90%] lg:w-[35%] text-center">Dominate every sportsbook with our proven system</p>
 
       <section className="flex justify-center items-center gap-2 md:gap-6">
+          <div className="hidden md:flex flex-col items-center justify-center w-[40px] h-[40px] md:w-[60px] md:h-[60px] text-[#a9c0ff] bg-[#161B22] border-[1px] border-gray-800 rounded-xl hover:delay-300 hover:bg-[#1A1931] transition-all duration-200 ease-in-out p-2">
+            <Image
+              width={1000}
+              height={1000}
+              src="/assets/sportsbook1.png"
+              alt="MGM sports book"
+              className=""
+          />
+          </div>
+
           <div className="hidden md:flex flex-col items-center justify-center w-[40px] h-[40px] md:w-[60px] md:h-[60px] text-[#a9c0ff] bg-[#161B22] border-[1px] border-gray-800 rounded-xl hover:delay-300 hover:bg-[#1A1931] transition-all duration-200 ease-in-out p-2">
             <Image
               width={1000}
@@ -64,6 +74,16 @@ const Sportsbooks = () => {
               height={1000}
               src="/assets/sportsbook2.png"
               alt="MGM sports book"
+          />
+          </div>
+
+          <div className="hidden md:flex flex-col items-center justify-center w-[40px] h-[40px] md:w-[60px] md:h-[60px] text-[#a9c0ff] bg-[#161B22] border-[1px] border-gray-800 rounded-xl hover:delay-300 hover:bg-[#1A1931] transition-all duration-200 ease-in-out p-2">
+            <Image
+              width={1000}
+              height={1000}
+              src="/assets/sportsbook1.png"
+              alt="MGM sports book"
+              className=""
           />
           </div>
 

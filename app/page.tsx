@@ -7,8 +7,9 @@ import Footer from "@/components/Footer";
 import Footer2 from "@/components/Footer2";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import Newsletter from "@/components/Newsletter";
+import Results from "@/components/Results";
 import Sportsbooks from "@/components/Sportsbooks";
-import Testimonials from "@/components/Testimonials";
 import Testimonials2 from "@/components/Testimonials2";
 
 
@@ -21,19 +22,21 @@ const Home = () => {
       <div id="features">
         <Features />
       </div>
-      <div id="testimonials">
-        <Testimonials2 />
-      </div>
       <div id="benefits">
         <Benefits />
       </div>
-      <CTA />
+      <div id="testimonials">
+        <Testimonials2 />
+      </div>
+      <Results />
+      <Newsletter />
       <div id="community">
         <Community />
       </div>
       <div id="faq">
         <Faq />
       </div>
+      <CTA />
       <Footer />
       <Footer2 />
     </div>

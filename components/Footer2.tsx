@@ -1,4 +1,3 @@
-import { Instagram } from 'lucide-react'
 import React from 'react'
 import { FaDiscord, FaInstagram, FaTiktok, FaTwitter } from 'react-icons/fa6'
 

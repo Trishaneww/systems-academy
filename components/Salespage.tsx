@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import { Button } from './ui/button'
-import { BarChart, Book, Check, Clock, Eye, Folder, Info, Phone, ShieldCheck, Star, Users, Video } from 'lucide-react'
+import { BarChart, Book, Check, Clock, Eye, Folder, ShieldCheck, Star, Users} from 'lucide-react'
 import Image from 'next/image'
 import {
     Accordion,
@@ -10,7 +10,7 @@ import {
     AccordionTrigger,
   } from "@/components/ui/accordion"
 import { faqData } from '@/data'
-import { FaBasketball, FaPeopleGroup } from 'react-icons/fa6'
+import { FaBasketball } from 'react-icons/fa6'
 import { MdPhoneIphone } from 'react-icons/md'
 
 const Salespage = () => {
@@ -28,7 +28,7 @@ const Salespage = () => {
         </div>
         <div className="flex flex-col text-slate-950 w-[93%] gap-2">
             <p className="text-xl font-bold">Description</p>
-            <p className="flex gap-2">Unlock the secrets to making serious money with NBA sports betting. This course is designed for those ready to turn their passion for basketball into a profitable venture. Learn the fundamentals of gambling and NBA strategy, master the psychology behind successful betting, and implement a proven system to maximize your returns. Discover the best platforms, analyze team-specific and daily trends, and develop the skills to evaluate bets like a pro. If you're serious about building a lucrative betting portfolio, this course is your ultimate guide to success.</p>
+            <p className="flex gap-2">Unlock the secrets to making serious money with NBA sports betting. This course is designed for those ready to turn their passion for basketball into a profitable venture. Learn the fundamentals of gambling and NBA strategy, master the psychology behind successful betting, and implement a proven system to maximize your returns. Discover the best platforms, analyze team-specific and daily trends, and develop the skills to evaluate bets like a pro. If you&apos;re serious about building a lucrative betting portfolio, this course is your ultimate guide to success.</p>
         </div>
 
 
@@ -70,7 +70,7 @@ const Salespage = () => {
         </div>
 
         <div className="flex flex-col text-slate-950 lg:w-[70%] gap-2">
-            <p className="text-xl font-bold">What you'll learn</p>
+            <p className="text-xl font-bold">What you&apos;ll learn</p>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
                 <p className="flex gap-2"><span><Check /></span> How to evaluate your bets</p>
                 <p className="flex gap-2"><span><Check /></span> Gambling psychology & fallacies</p>
@@ -159,9 +159,6 @@ const Salespage = () => {
                         <p>Betting educator</p>
                     </div>
                 </div>
-
-
-
                 <p className="mt-4">Our company empowers sports enthusiasts with expert knowledge and proven strategies through our NBA sports betting course, aiming to help bettors make smarter decisions and achieve consistent success.</p>
                 <p className="mt-6">Course Includes:</p>
 

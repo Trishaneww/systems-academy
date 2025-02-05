@@ -1,4 +1,4 @@
-import { Book, BookOpen, ChevronRight, Users } from 'lucide-react'
+import { BookOpen, ChevronRight, Users } from 'lucide-react'
 import React from 'react'
 import { FaDiscord } from 'react-icons/fa6'
 
