@@ -46,7 +46,7 @@ const Navbar = () => {
           <Button className="w-[100px] h-[40px] hover:bg-transparent text-slate-50 bg-transparent p-2 text-base">Login</Button>
         </Link>
 
-        <Link href="/signup">
+        <Link href="/login">
           <Button className="w-[120px] h-[40px] bg-white hover:bg-[#a9c0ff] hover:text-slate-950 rounded-lg text-base text-slate-950">Sign Up<FaArrowRightLong className="ml-2"/></Button>
         </Link>
     </div>
