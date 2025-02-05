@@ -51,7 +51,7 @@ const ContactHero = () => {
   return (
     <div className="flex flex-col items-center justify-center w-full text-slate-50 overflow-hidden px-6">
 
-      <div className="w-[85%] lg:w-[50%] h-[50%] bg-gradient-to-r from-[#86a6ff] to-[#1D4ED8] rounded-full absolute z-1 top-[77%] left-[50%] translate-x-[-50%] translate-y-[-50%] blur-[90px] -rotate-12"></div>
+      <div className="w-[85%] lg:w-[50%] h-[45%] bg-gradient-to-r from-[#86a6ff] to-[#1D4ED8] rounded-full absolute z-1 top-[70%] left-[50%] translate-x-[-50%] translate-y-[-50%] blur-[90px] -rotate-12"></div>
       <div className="flex flex-col gap-4 justify-center items-center text-center mt-52">
         <p className="bg-gradient-to-r from-[#a9c0ff] to-[#1D4ED8]  bg-clip-text text-transparent text-xl font-bold">GET IN TOUCH</p>
         <p className="text-4xl lg:text-6xl xl:text-7xl  lg:w-[55%] font-bold">Have any questions? Write to us and get answers!</p>
