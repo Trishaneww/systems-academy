@@ -20,7 +20,7 @@ const Navbar3 = () => {
       </div>
 
     <div className="hidden md:flex gap-2 justify-center items-center">
-        <Link href="/signup" className="text-slate-50">
+        <Link href="/login" className="text-slate-50">
           <LogOut />
         </Link>
 

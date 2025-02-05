@@ -34,7 +34,7 @@ const Navbar2 = () => {
           <Button className="w-[100px] h-[40px] hover:bg-white hover:text-slate-950 text-slate-50 p-2 text-base">Login</Button>
         </Link>
 
-        <Link href="/signup">
+        <Link href="/login">
           <Button className="w-[120px] h-[40px] bg-white rounded-lg text-base text-slate-950">Sign Up<FaArrowRightLong className="ml-2"/></Button>
         </Link>
     </div>
